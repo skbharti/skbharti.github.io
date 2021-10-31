@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "A Short CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,30 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+| **B.Tech. in Computer Science and Engineering, IIT Kanpur** | **2015-19** |
+| **M.S. in Computer Science, UW-Madison** | **2019-21** |
+| **Ph.D. in Computer Science, UW-Madison** | **2019-present** |
+
+Appointments
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Summer'20-present : Research Assistant**
+  * Computer Science, UW-Madison
+  * Supervisor: Prof. Jerry Zhu 
+
+* **Fall'19-Spring'20 : Teaching Assistant**
+  * CS300, Computer Science, UW-Madison
+  * Instructors : Prof. Gary Dahl, Prof. Mouna Kacem, Prof. Hobbes Legault  
+
+* **Spring'19 : Teaching Assistant**
+  * ESC101, Computer Science and Engineering, IIT Kanpur 
+  * Instructor : Prof. Swaprava Nath 
+
+* **Summer'18: Research Intern**
+  * HLTRI, Computer Science, UT Dallas
+  * Supervisor: Prof. Vincent Ng
+
 
 Publications
 ======
@@ -42,18 +42,21 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
+   -->
+
+# Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+# Course Works
+
+| ----------- | ----------- | ----------- | 
+| Theoretical Foundations of ML | Advanced Machine Learning |  Computational Learning Theory |  
+| Deep Learning for Computer Vision | Topics in Natural Language Processing | Probabilistic Modelling & Inferences| 
+| Non-Parametric methods in Data Science |  Theory of Reinforcement Learning | Algorithmic Robust Statistics |
