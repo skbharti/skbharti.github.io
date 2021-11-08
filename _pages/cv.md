@@ -38,10 +38,10 @@ Appointments
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  <ul>{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}</ul>
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}
@@ -49,14 +49,15 @@ Publications
   {% endfor %}</ul>
    -->
 
-# Teaching
-  <ul>{% for post in site.teaching %}
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Course Works
+<!-- # Course Works
 
 | ----------- | ----------- | ----------- | 
 | Theoretical Foundations of ML | Advanced Machine Learning |  Computational Learning Theory |  
 | Deep Learning for Computer Vision | Topics in Natural Language Processing | Probabilistic Modelling & Inferences| 
-| Non-Parametric methods in Data Science |  Theory of Reinforcement Learning | Algorithmic Robust Statistics |
+| Non-Parametric methods in Data Science |  Theory of Reinforcement Learning | Algorithmic Robust Statistics | -->
