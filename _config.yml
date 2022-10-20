@@ -11,7 +11,7 @@ title                    : "Shubham Kumar Bharti  "
 title_separator          : "-"
 name                     : &name "Shubham Kumar Bharti"
 description              : &description "Welcome to my Academic Webpage"
-url                      : https://skbharti.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://skbharti.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "skbharti/skbharti.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -83,10 +83,10 @@ author:
   name             : "Shubham Kumar Bharti"
   avatar           : "portrait.jpg"
   bio              : "PhD student in Computer Science at UW-Madison"
-  location         : "1210 W Dayton St, Madison, WI"
+  location         : "Madison, WI"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : https://scholar.google.com/citations?user=C4HtUnEAAAAJ&hl=en
   email            :  "first_name_initial+last_name@wisc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/skbharti/"
+  github           : skbharti
   google_plus      :
   keybase          :
   instagram        :
