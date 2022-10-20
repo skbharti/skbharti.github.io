@@ -13,40 +13,24 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
+  {% if post.collection == 'publications' %}
+  <h3 class="archive__item-title" itemprop="headline">
+    {{ title }}
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}"><button class="btn btn--inverse"> Paper </button></a>
     {% endif %}
-    
-      {% if post.collection == 'publications' %}
-        <h3 class="archive__item-title" itemprop="headline">
-          {{ title }}
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}"><button class="btn btn--inverse"> Paper </button></a>
-          {% endif %}
-          {% if post.paperurl %}
-            <a href="{{ post.bibfile }}"><button class="btn btn--inverse"> Cite </button></a>
-          {% endif %}
-        </h3>
-        {% if post.published == "conference" %}
-        <em>{{ post.authors }}, At {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
-        {% else %}
-          <em>{{ post.authors }}, {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
-        {% endif %}
-      {% endif %}
+    {% if post.bibfile %}
+      <a href="{{ post.bibfile }}"><button class="btn btn--inverse"> Cite </button></a>
+    {% endif %}
+  </h3>
+  {% if post.published == "conference" %}
+  <em>{{ post.authors }}, At {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
+  {% else %}
+    <em>{{ post.authors }}, {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
+  {% endif %}
+{% endif %}
 
-    <h3 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'teaching' %}
-        {{ title }}
-      {% endif %}
-    </h3>
-  </article>
+{% if post.collection == 'teaching' %}
+    <h3>{{ title }}</h3>
+{% endif %}
 </div>
