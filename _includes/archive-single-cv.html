@@ -17,17 +17,13 @@
   <h3 class="archive__item-title" itemprop="headline">
     {{ title }}
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}"><button class="btn btn--inverse"> Paper </button></a>
+      <a href="{{ }}{{ post.paperurl }}"><button class="btn btn--inverse"> Paper </button></a>
     {% endif %}
     {% if post.bibfile %}
-      <a href="{{ post.bibfile }}"><button class="btn btn--inverse"> Cite </button></a>
+      <a href="{{ site.url }}/files/bibtex/{{ post.bibfile }}"><button class="btn btn--inverse"> Cite </button></a>
     {% endif %}
   </h3>
-  {% if post.published == "conference" %}
-  <em>{{ post.authors }}, At {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
-  {% else %}
-    <em>{{ post.authors }}, {{ post.shortvenue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
-  {% endif %}
+  <em>{{ post.authors }}, In {{ post.shortvenue }} {{ post.date | default: "1900-01-01" | date: "%Y" }}</em>
 {% endif %}
 
 {% if post.collection == 'teaching' %}
