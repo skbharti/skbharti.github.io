@@ -12,10 +12,9 @@ redirect_from:
 Education
 ======
 
-
-| **B.Tech. in Computer Science and Engineering, IIT Kanpur** | **2015-19** |
-| **M.S. in Computer Science, UW-Madison** | **2019-21** |
 | **Ph.D. in Computer Science, UW-Madison** | **2019-present** |
+| **M.S. in Computer Science, UW-Madison** | **2019-21** |
+| **B.Tech. in Computer Science and Engineering, IIT Kanpur** | **2015-19** |
 
 Appointments
 ======
@@ -38,9 +37,9 @@ Appointments
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}</ul>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
 <!-- Talks
 ======
@@ -51,9 +50,9 @@ Publications
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+  {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
   
 <!-- # Course Works
 
