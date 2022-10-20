@@ -6,6 +6,7 @@ excerpt: 'In this paper, we study the problem of fairness in multiarmed bandits 
 date: 2021-06-10
 authors: 'Shubham Kumar Bharti, Kangwook Lee, Xiaojin Zhu'
 published: "notpublished"
+shortvenue: "Preprints"
 # paperurl: ''
 # citation: 
 ---
