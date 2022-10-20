@@ -5,7 +5,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2019-fall-teaching-1
 venue: "Computer Sciences, UW Madison"
-date: 2020-05-05
+term: "Fall 2019, Spring 2020"
 location: "Madison, US"
 ---
 

@@ -5,7 +5,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2019-spring-teaching-1
 venue: "Computer Sciences & Engineering, IIT Kanpur"
-date: 2019-04-04
+term: "Spring 2019"
 location: "Kanpur, India"
 ---
 
