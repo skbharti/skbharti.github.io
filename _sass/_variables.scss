@@ -28,6 +28,10 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
+// quick dirty solution, need to replace sans serif at other places too
+$sans-serif                : $georgia;
+$sans-serif-narrow         : $georgia;
+
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
