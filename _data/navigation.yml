@@ -11,12 +11,12 @@ main:
     
   # - title: "Courses"
   #   url: /courses/
-        
-  # - title: "Blog"
-  #   url: /blog/
     
   - title: "CV"
     url: /cv/
+
+  - title: "Blog"
+    url: /blog/
     
-  # - title: "Guide"
-  #   url: /markdown/
+  # - title: "Misc"
+  #   url: /miscellaneous/
