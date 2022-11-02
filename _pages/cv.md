@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "A Short CV"
+title: "Shubham Kumar Bharti"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,16 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## <u>Education</u>
 
-
-| **B.Tech. in Computer Science and Engineering, IIT Kanpur** | **2015-19** |
-| **M.S. in Computer Science, UW-Madison** | **2019-21** |
 | **Ph.D. in Computer Science, UW-Madison** | **2019-present** |
+| **M.S. in Computer Science, UW-Madison** | **2019-21** |
+| **B.Tech. in Computer Science and Engineering, IIT Kanpur** | **2015-19** |
 
-Appointments
-======
+## <u>Appointments</u>
+
 * **Summer'20-present : Research Assistant**
   * Computer Science, UW-Madison
   * Supervisor: Prof. Jerry Zhu 
@@ -36,12 +34,18 @@ Appointments
   * Supervisor: Prof. Vincent Ng
 
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}</ul>
+## <u>Publications</u>
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
+<br>
+
+<!-- # Teaching
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %} -->
+  
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}
@@ -49,12 +53,6 @@ Publications
   {% endfor %}</ul>
    -->
 
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 <!-- # Course Works
 
 | ----------- | ----------- | ----------- | 
