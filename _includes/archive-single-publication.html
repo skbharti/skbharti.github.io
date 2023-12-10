@@ -44,10 +44,13 @@
     <br>
 
     {% if post.paperurl %}
-      <a href=" {{ post.paperurl }} "><button class="btn btn--inverse"> Paper </button></a>
+      <a href=" {{ post.paperurl }} target="_blank""><button class="btn btn--inverse"> Paper </button></a>
     {% endif %}
     {% if post.bibfile %}
       <a href="  {{ site.url }}/files/bibtex/{{ post.bibfile }}" download="{{ post.bibfile }}"><button class="btn btn--inverse"> Bibtex </button></a>
+    {% endif %}
+    {% if post.codeurl %}
+      <a href=" {{ post.codeurl }}" target="_blank"><button class="btn btn--inverse"> Code </button></a>
     {% endif %}
 
   </article>
