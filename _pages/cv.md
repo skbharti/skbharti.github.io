@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Shubham Kumar Bharti"
+title: "Shubham Bharti"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -17,20 +17,28 @@ redirect_from:
 
 ## <u>Appointments</u>
 
+* **Summer'23 : Applied Scientist Intern**
+  * Amazon Search Team, Palo Alto, US
+  * Mentors : Gaurush Hiranandani, Suyash Gupta, Vassilis Ioannidis  
+
+* **Summer'22 : Research Scholar Visitor**
+  * Computer Science, MPI-SWS, Germany
+  * Supervisor : Prof. Adish Singla
+
 * **Summer'20-present : Research Assistant**
-  * Computer Science, UW-Madison
+  * Computer Science, UW-Madison, US
   * Supervisor: Prof. Jerry Zhu 
 
 * **Fall'19-Spring'20 : Teaching Assistant**
-  * CS300, Computer Science, UW-Madison
+  * CS300, Computer Science, UW-Madison, US
   * Instructors : Prof. Gary Dahl, Prof. Mouna Kacem, Prof. Hobbes Legault  
 
 * **Spring'19 : Teaching Assistant**
-  * ESC101, Computer Science and Engineering, IIT Kanpur 
+  * ESC101, Computer Science and Engineering, IIT Kanpur, India
   * Instructor : Prof. Swaprava Nath 
 
 * **Summer'18: Research Intern**
-  * HLTRI, Computer Science, UT Dallas
+  * HLTRI, Computer Science, UT Dallas, US
   * Supervisor: Prof. Vincent Ng
 
 
