@@ -17,10 +17,6 @@ redirect_from:
 
 ## <u>Appointments</u>
 
-* **Fall'20-Present : Graduate Research Assistant**
-  * Computer Science, UW Madison, WI, US
-  * Advisor : Prof. Jerry Zhu
-
 * **Summer'25 : Applied Scientist Intern**
   * AWS Agentic AI Team, Santa Clara, CA, US
   * Mentors : Vidyashankar Sivakumar, Mukul Prasad
