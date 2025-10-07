@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shubham Kumar Bharti  "
+title                    : "Shubham Bharti  "
 title_separator          : "-"
-name                     : &name "Shubham Kumar Bharti"
+name                     : &name "Shubham Bharti"
 description              : &description "Welcome to my Academic Webpage"
 url                      : https://skbharti.github.io # the base hostname & protocol for your site 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shubham Kumar Bharti"
+  name             : "Shubham Bharti"
   avatar           : "portrait.jpg"
   bio              : "PhD student in Computer Science at UW-Madison"
   location         : "Madison, WI"
