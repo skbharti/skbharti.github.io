@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## Hi, welcome to my homepage!
+## Welcome to my homepage!
 
 I am a final year PhD student in the department of [Computer Science](https://www.cs.wisc.edu/) at [UW-Madison](https://www.wisc.edu/), where I am fortunate to be advised by [Prof. Jerry Zhu](http://pages.cs.wisc.edu/~jerryzhu/index.html). My research interest lies broadly in Machine Learning including topics in Reinforcement Learning, Machine Teaching, Adversarial Learning and more recently in RL/LLM Agents. 
 
@@ -16,6 +16,7 @@ Apart from academic research, I have interned with different teams at Amazon/AWS
 
 Outside my work, I enjoy being outdoors - running, hiking, and skiing being my current favorites!
 
-I am currently on job market!
+<p style="color: #240a72ff; font-weight: bold;">
+I am currently on the job market. Please feel free to reach out if you have any relevant openings!</p>
 
 You can reach me at first_name_initial+last_name at wisc.edu.
