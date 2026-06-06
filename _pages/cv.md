@@ -11,26 +11,29 @@ redirect_from:
 
 ## <u>Education</u>
 
-| **Ph.D. in Computer Science, UW-Madison, US** | **2019-present** |
+| **Ph.D. in Computer Science, UW-Madison, US** | **2019-25** |
 | **M.S. in Computer Science, UW-Madison, US** | **2019-21** |
 | **B.Tech. in Computer Science and Engineering, IIT Kanpur, India** | **2015-19** |
 
 ## <u>Appointments</u>
 
+* **Spring'26-present : Research Scientist**
+  * Google, San Francisco Bay Area, US
+
 * **Summer'25 : Applied Scientist Intern**
-  * AWS Agentic AI Team, Santa Clara, CA, US
+  * AWS Agentic AI Team, Santa Clara, US
   * Mentors : Vidyashankar Sivakumar, Mukul Prasad
 
 * **Summer'23 : Applied Scientist Intern**
-  * Amazon Search Team, Palo Alto, CA, US
+  * Amazon Search Team, Palo Alto, US
   * Mentors : Gaurush Hiranandani, Suyash Gupta, Vassilis Ioannidis  
 
 * **Summer'22 : Research Scholar Visitor**
-  * Computer Science, MPI-SWS, Saarbrücken, Germany
+  * Max Planck Institute for Software Systems, Saarbrücken, Germany
   * Supervisor : Prof. Adish Singla
 
-* **Summer'20-present : Research Assistant**
-  * Computer Science, UW-Madison, WI, US
+* **Summer'20-Fall'25 : Research Assistant**
+  * Computer Science Department, UW-Madison, Madison, WI, US
   * Supervisor: Prof. Jerry Zhu 
 
 * **Fall'19-Spring'20 : Teaching Assistant**

@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Shubham Bharti"
   avatar           : "portrait.jpg"
-  bio              : "PhD student in Computer Science at UW-Madison"
-  location         : "Madison, WI"
-  employer         :
+  bio              : "Research Scientist @ Google"
+  location         : "SF Bay Area, US"
+  employer         : 
   pubmed           : 
   googlescholar    : https://scholar.google.com/citations?user=C4HtUnEAAAAJ&hl=en
-  email            :  "first_name_initial+last_name@wisc.edu"
+  email            :  "shubham-external@google.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
